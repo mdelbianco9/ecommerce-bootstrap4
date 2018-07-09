@@ -1,9 +1,23 @@
+/*.    General.   */
+
+select:focus {
+	outline: none;
+	border: none;
+}
+
+button:focus {
+	outline: none;
+	border: none;
+}
+
+
 
 
 /*.     #top-header  (18)   */
 #top-header .text-secondary small, select {
 	letter-spacing: .75px;
 	font-family: 'Open Sans', sans-serif;
+	border: none;
 }
 
 #top-header .top-left a {
@@ -25,6 +39,10 @@
 
 #nav-bar a:hover {
 	color: #6c757d;
+}
+
+#hamburger-button .fa-bars:active {
+	color: #00e8d3;
 }
 
 
