@@ -47,3 +47,28 @@
 		display: none;
 	}
 }
+
+
+@media only screen and (max-width: 844px) {
+	#collapsibleNavbar .nav .nav-item {
+		display: block!important;
+		width: 100%;
+	}
+
+	#collapsibleNavbar {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
