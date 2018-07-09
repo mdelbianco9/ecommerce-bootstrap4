@@ -6,7 +6,26 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+#top-header .top-left a {
+	text-decoration: none;
+}
 
+#top-header .top-left a:hover {
+	color: #00e8d3!important;
+}
+
+/*.      Navbar   (57)     */  
+
+#nav-bar a {
+	letter-spacing: .75px;
+	font-family: 'Open Sans', sans-serif;
+	color: #00e8d3;
+	transition: color .25s;
+}
+
+#nav-bar a:hover {
+	color: #6c757d;
+}
 
 
 
@@ -22,8 +41,8 @@
 
 /*Media Querries*/
 
-/*For media less than 811px*/
-@media only screen and (max-width: 811px) {
+/*For media less than 930px*/
+@media only screen and (max-width: 930px) {
 	#top-header {
 		display: none;
 	}
