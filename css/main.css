@@ -1,4 +1,4 @@
-/*.    General.   */
+/****** General  *****/
 
 select:focus {
 	outline: none;
@@ -13,7 +13,7 @@ button:focus {
 
 
 
-/*.     #top-header  (18)   */
+/******  #top-header (18) ******/
 #top-header .text-secondary small, select {
 	letter-spacing: .75px;
 	font-family: 'Open Sans', sans-serif;
@@ -25,39 +25,61 @@ button:focus {
 }
 
 #top-header .top-left a:hover {
-	color: #00e8d3!important;
+	color: #e80015!important;
 }
 
-/*.      Navbar   (57)     */  
+/*******  Navbar (57) ******/  
 
-#nav-bar a {
+#navbar a {
 	letter-spacing: .75px;
 	font-family: 'Open Sans', sans-serif;
-	color: #00e8d3;
+	color: #e80015;
 	transition: color .25s;
 }
 
-#nav-bar a:hover {
+#navbar a:hover {
 	color: #6c757d;
 }
 
 #hamburger-button .fa-bars:active {
-	color: #00e8d3;
+	color: #6c757d;
+}
+
+#hamburger-button .fa-bars {
+	color: #e80015;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 40px;
+}
+
+.fixed-top {
+	background-color: #fff!important;
+}
+
+/*****  Carousel ******/
+
+#carousel-1 {
+	height: 500px;
+}
+
+.carousel-caption {
+	position: relative!important;
+	bottom: 500px!important;
+	left: 200px;
+	width: 25%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*Media Querries*/
+/****** Media Querries *******/
 
 /*For media less than 930px*/
 @media only screen and (max-width: 930px) {
@@ -75,6 +97,11 @@ button:focus {
 
 	#collapsibleNavbar {
 		text-align: center;
+	}
+
+	.nav-item {
+		border-right: none!important;
+		border-left: none!important;
 	}
 }
 
