@@ -25,7 +25,7 @@ button:focus {
 }
 
 #top-header .top-left a:hover {
-	color: #e80015!important;
+	color: #00e8d3!important;
 }
 
 /*******  Navbar (57) ******/  
@@ -33,7 +33,7 @@ button:focus {
 #navbar a {
 	letter-spacing: .75px;
 	font-family: 'Open Sans', sans-serif;
-	color: #e80015;
+	color: #00e8d3;
 	transition: color .25s;
 }
 
@@ -46,7 +46,7 @@ button:focus {
 }
 
 #hamburger-button .fa-bars {
-	color: #e80015;
+	color: #00e8d3;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -68,7 +68,7 @@ button:focus {
 /*****  Carousel ******/
 
 #carousel-1 {
-	height: 500px;
+	height: 700px;
 }
 
 .carousel-caption {
@@ -77,6 +77,73 @@ button:focus {
 	left: 200px;
 	width: 25%;
 }
+
+video {
+	 box-shadow: none;
+}
+
+/*.img-responsive {
+	height: 668px;
+}*/
+
+
+/******  Masonry *******/
+
+/*#masonry {
+	position: relative;
+	top: 200px;
+}*/
+
+.card {
+	border: none;
+	border-radius: 0px ;
+	text-align: center;
+}
+
+.card-img-top {
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.card button {
+	position: absolute;
+	z-index: 60;
+	bottom: 23px;
+	left: 90px;
+	border-radius: 0px;
+	opacity: .9;
+	box-sizing: border-box;
+	width: 50%;
+	text-align: center;
+	color: #00e8d3;
+	transition: .3s ease-in-out;
+}
+
+.card button:hover {
+	background-color: #00e8d3;
+	color: #fff;
+}
+
+.card-img-top {
+	
+	transition: all .3s ease-in-out;
+}
+
+.card-img-top:hover {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /****** Media Querries *******/
