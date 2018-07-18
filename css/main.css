@@ -68,7 +68,9 @@ button:focus {
 /*****  Carousel ******/
 
 #carousel-1 {
-	height: 700px;
+	height: 600px;
+	margin-bottom: 15px;
+	background-color: rgba(0,29,36);
 }
 
 .carousel-caption {
@@ -125,12 +127,12 @@ video {
 }
 
 .card-img-top {
-	
-	transition: all .3s ease-in-out;
+	opacity: .7;
+	transition: opacity .3s ease-in-out;
 }
 
 .card-img-top:hover {
-
+	opacity: 1;
 }
 
 
