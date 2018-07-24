@@ -140,23 +140,26 @@ video {
 /******* Split Boxes *******/
 
 #split-look {
-	background-color: rgb(242, 242, 242);
+	background-color: rgb(29, 242, 242);
 	height: 500px;
-	display: flex;
 }
 
-#split-look .col-6 {
-	height: 80%;
-	margin: auto 0px;
-}
-
-#split-look .col-6 div {
+#split-look .row {
 	height: 100%;
-	background-color: orange;
 }
 
-#split-look .col-6:nth-child(2) div {
-	background-color: #ffe500;
+#split-look .row .col-md-6 {
+	height: 100%;
+	background-color: rgb(242, 242, 242);
+	padding: 0px!important;
+}
+
+
+#split-look .row .col-md-6 .box {
+	width: 95%;
+	height: 85%;
+	background-color: orange;
+	margin: auto;
 }
 
 
