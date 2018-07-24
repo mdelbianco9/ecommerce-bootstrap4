@@ -150,7 +150,7 @@ video {
 
 #split-look .row .col-md-6 {
 	height: 100%;
-	background-color: rgb(242, 242, 242);
+	background-color: rgb(249, 249, 249);
 	padding: 0px!important;
 }
 
@@ -158,12 +158,55 @@ video {
 #split-look .row .col-md-6 .box {
 	width: 95%;
 	height: 85%;
-	background-color: orange;
+	/*background-color: orange;*/
 	margin: auto;
+}
+
+#split-look .row .col-md-6:nth-child(1) .box {
+	background-image: url("../img/colors.jpg");
+	transform: rotate(180deg);
+	background-size: cover;
+}
+
+#split-look .row .col-md-6:nth-child(2) .box {
+	/*background-color: #ffe500;*/
+	background-image: url("../img/swirl.jpg");
+	transform: rotate(180deg);
+	background-size: cover;
+}
+
+#split-look .row .col-md-6 .box .overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	opacity: .7;
+	margin: 0px;
+}
+
+
+#split-look .row .col-md-6 .box .top-corner {
+	position: relative;
+	bottom: -150px;
+	padding-left: 20px;
+	transform: rotate(180deg);
+}
+
+#split-look .row .col-md-6 .box .diagonal {
+	position: relative;
+	padding-top: 30px;
+	top: 150px;
+	font-size: 70px;
+	transform: rotate(130deg);
 }
 
 
 
+#split-look .row .col-md-6:nth-child(2) .box .overlay h1, h2 {
+	transform: rotate(180deg);
+	position: relative;
+	padding-left: 55%;
+	padding-bottom: 4%;
+}
 
 
 
