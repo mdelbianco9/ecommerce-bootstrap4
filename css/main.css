@@ -33,7 +33,7 @@ button:focus {
 #navbar a {
 	letter-spacing: .75px;
 	font-family: 'Open Sans', sans-serif;
-	color: #00e8d3;
+	color: #e500ff;
 	transition: color .25s;
 }
 
@@ -181,22 +181,28 @@ video {
 	background-color: rgb(242, 242, 242);
 	opacity: .7;
 	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 
 #split-look .row .col-md-6 .box .top-corner {
 	position: relative;
-	bottom: -150px;
+	bottom: -250px;
 	padding-left: 20px;
 	transform: rotate(180deg);
+	font-family: 'Raleway', sans-serif;
+
 }
 
 #split-look .row .col-md-6 .box .diagonal {
 	position: relative;
-	padding-top: 30px;
+	padding-left: 130px;
 	top: 150px;
-	font-size: 70px;
-	transform: rotate(130deg);
+	font-size: 30px;
+	transform: rotate(90deg);
+	font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -206,7 +212,18 @@ video {
 	position: relative;
 	padding-left: 55%;
 	padding-bottom: 4%;
+	font-family: 'Raleway', sans-serif;
+
 }
+
+/*#split-look .row .col-md-6:nth-child(2) .box .overlay h1 {
+	color: #e81aff;
+	opacity: 1;
+}
+
+.overlay span {
+	color: #00d9ff;
+}*/
 
 
 
