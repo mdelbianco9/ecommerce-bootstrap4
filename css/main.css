@@ -39,6 +39,7 @@ button:focus {
 
 #navbar a:hover {
 	color: #6c757d;
+	text-decoration: underline;
 }
 
 #hamburger-button .fa-bars:active {
@@ -136,10 +137,27 @@ video {
 }
 
 
+/******* Split Boxes *******/
 
+#split-look {
+	background-color: rgb(242, 242, 242);
+	height: 500px;
+	display: flex;
+}
 
+#split-look .col-6 {
+	height: 80%;
+	margin: auto 0px;
+}
 
+#split-look .col-6 div {
+	height: 100%;
+	background-color: orange;
+}
 
+#split-look .col-6:nth-child(2) div {
+	background-color: #ffe500;
+}
 
 
 
