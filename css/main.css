@@ -33,7 +33,9 @@ button:focus {
 #navbar a {
 	letter-spacing: .75px;
 	font-family: 'Open Sans', sans-serif;
-	color: #e500ff;
+	/*color: #e500ff;*/
+	color: #13efe3;
+	font-weight: 700;
 	transition: color .25s;
 }
 
@@ -71,7 +73,8 @@ button:focus {
 #carousel-1 {
 	height: 600px;
 	margin-bottom: 15px;
-	background-color: rgba(0,29,36);
+	background-color: #ff89e4;
+	opacity: .9;
 }
 
 .carousel-caption {
@@ -84,6 +87,30 @@ button:focus {
 video {
 	 box-shadow: none;
 }
+.carousel-text {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	padding-left: 4%;
+}
+.carousel-text h1 {
+	background-image: linear-gradient(to right, rgba(79, 109, 200, 0.89) 0%, rgba(51, 203, 200, 0.68) 100%);
+	color: transparent;
+	-webkit-background-clip: text;
+	display: inline-block;
+	font-size: 9rem;
+	font-weight: 700;
+	line-height: 1.4;
+	position: relative;
+	top: -80px;
+
+}
+
+.carousel-text h1:nth-child(2) {
+	margin-left: 15%;
+	background-color: yellow;
+}
+
 
 /*.img-responsive {
 	height: 668px;
