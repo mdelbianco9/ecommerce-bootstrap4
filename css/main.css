@@ -140,7 +140,7 @@ video {
 /******* Split Boxes *******/
 
 #split-look {
-	background-color: rgb(29, 242, 242);
+	/*background-color: rgb(29, 242, 242);*/
 	height: 500px;
 }
 
@@ -216,14 +216,16 @@ video {
 
 }
 
-/*#split-look .row .col-md-6:nth-child(2) .box .overlay h1 {
-	color: #e81aff;
-	opacity: 1;
+/*Gradient Text*/
+.the-artist {
+	background-image: linear-gradient(to right, rgba(79, 109, 200, 0.89) 0%, rgba(51, 203, 200, 0.68) 100%);
+	color: transparent;
+	-webkit-background-clip: text;
+	display: inline-block;
+	font-size: 3.8rem;
+	font-weight: 700;
+	line-height: 1.4;
 }
-
-.overlay span {
-	color: #00d9ff;
-}*/
 
 
 
