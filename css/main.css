@@ -36,12 +36,13 @@ button:focus {
 	/*color: #e500ff;*/
 	color: #13efe3;
 	font-weight: 700;
-	transition: color .25s;
+	transition: all .35s;
 }
 
 #navbar a:hover {
 	color: #6c757d;
 	text-decoration: underline;
+	opacity: .9;
 }
 
 #hamburger-button .fa-bars:active {
