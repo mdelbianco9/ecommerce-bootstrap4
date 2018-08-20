@@ -255,7 +255,40 @@ video {
 	line-height: 1.4;
 }
 
+/*Three box section*/
 
+#three-boxes {
+	/*border: 1px solid black;*/
+	position: relative;
+	top: 150px;
+	z-index: 88;
+}
+
+#three-boxes .card-1 {
+	width: 30%;
+	height: 500px;
+	display: inline-flex;
+}
+
+#three-boxes .card-1 img {
+	width: 100%;
+	height: 80%;
+	cursor: crosshair;
+}
+
+.card-body {
+	padding: 10px;
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+}
+
+div.card-body {
+	height: 25%;
+}
+
+.card-body:hover {
+	background-color: rgba(200, 200, 200, .2);
+}
 
 
 
